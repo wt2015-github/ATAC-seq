@@ -5,7 +5,7 @@ A shell pipeline for automatically analyzing all paired-end ATAC-seq data in a f
 The paths of some genome files and tools need to be modified accordingly:
 * Modify the paths of genome index files, ENCODE blacklist bed files and chromosome size files.
 * Make sure **fastqc**, **multiqc**, **trim_galore**, **fastq_screen**, **bowtie2**, **samtools**, **bedtools**, **macs2**, **bedGraphToBigWig** are installed and can be ran by just typing their names, otherwise modify the paths of these tools in this pipeline script.
-* Install Picard tools and set an environment variable/alias named PICARD for the path of picard.jar script, otherwise manually change "$PICARD" in this pipeline script to the full path of picard.jar script.
+* Install **Picard** tools and set an environment variable/alias named "PICARD" for the path of picard.jar script, otherwise manually change "**$PICARD**" in this pipeline script to the full path of picard.jar script.
 * Add summarize_ATACseq.pl to environment PATH or put it in /usr/local/bin/, otherwise modify the path of this perl file in this pipeline script.
 
 ## Usage
