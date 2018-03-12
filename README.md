@@ -1,9 +1,9 @@
-# atacseq
+# ATAC-Seq analysis
+A shell pipeline for automatically analyzing all paired-end ATAC-seq data in a folder.
 
 ## Introduction
-This is a shell pipeline for automatically analyzing all paired-end ATAC-seq data in a folder.
 
-It includes QC, trimming, contamination screening, mapping, filtering reads, peak calling, generating BigWig files and summary steps.
+This pipeline includes QC, trimming, contamination screening, mapping, filtering reads, peak calling, generating BigWig files and summary steps.
 
 Downstream analyses, such as merging and quantifying chromatin accessibility for multiple samples, different peak analysis, peak annotation and pathway enrichment analaysis, are case specific, so are not included in this pipeline.
 
