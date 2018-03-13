@@ -30,4 +30,4 @@ run_ATACseq.sh -g <hg19 or mm10> -i <path_of_inputs> -o <path_of_outputs> -t <th
 * A **process** folder including a summary table and subfolders of analysis results for each sample.
 
 ## Contact
-[Ting Wang](http://wt2015-github.github.io/) ([email](wang9ting@gmail.com)).
+[Ting Wang](http://wt2015-github.github.io/) (wang9ting@gmail.com).
